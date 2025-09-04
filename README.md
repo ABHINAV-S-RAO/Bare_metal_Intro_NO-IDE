@@ -110,7 +110,6 @@ ii. Navigate to the project directory:
    The make command reads the instructions present in the Makefile written.
 ```bash
 cd WEC_TASK/<task_name>
-make
 make load
 ```
 3. **Open another Gitbash Terminal and navigate to the project directory and run the following command**
@@ -131,7 +130,7 @@ monitor reset halt
 monitor resume
 ```
 **SO YOU SHOULD BE ABLE TO SEE THE PROGRAM WORKING ON THE MICROCONTROLLER.**
- To stop the execution:<img width="440" height="434" alt="image" src="https://github.com/user-attachments/assets/cd947cbd-3d41-44fd-814f-ff03c2173b46" />
+ To stop the execution:
 
 ```bash
 quit
