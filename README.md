@@ -109,13 +109,13 @@ i. Open a new Git Bash terminal.
 ii. Navigate to the project directory:
    The make command reads the instructions present in the Makefile written.
 ```bash
-cd WEC_TASK
+cd WEC_TASK/<task_name>
 make
 make load
 ```
 3. **Open another Gitbash Terminal and navigate to the project directory and run the following command**
 ```bash
-cd WEC_TASK
+cd WEC_TASK/<task_name>
 arm-none-eabi-gdb.exe
 ```
 4. **It starts the GNU Debugger** 
