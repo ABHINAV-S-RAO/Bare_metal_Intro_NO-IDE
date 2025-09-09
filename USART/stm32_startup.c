@@ -254,7 +254,7 @@ void Reset_Handler(void)
 	
 	for(uint32_t i=0;i<size;i++)
 	{
-		*pDst=*pSrc++;
+		*pDst++=*pSrc++;
 	}
 	//Init the .bss section to zero in SRAM
 	size=&_ebss - &_sbss;
