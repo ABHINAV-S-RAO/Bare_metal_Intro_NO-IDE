@@ -116,11 +116,13 @@ make load
 ```bash
 cd WEC_TASK/<task_name>
 arm-none-eabi-gdb.exe
+
+target remote localhost:3333
 ```
 4. **It starts the GNU Debugger** 
 In (gdb) type the following commands:
 ```bash
-target remote localhost:3333
+
 monitor reset init
 monitor flash write_image erase final.elf
 ```
