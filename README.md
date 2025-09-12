@@ -120,7 +120,7 @@ arm-none-eabi-gdb.exe
 4. **It starts the GNU Debugger** 
 In (gdb) type the following commands:
 ```bash
-monitor target remote localhost:3333
+target remote localhost:3333
 monitor reset init
 monitor flash write_image erase final.elf
 ```
